@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64eee3cc-0f00-4de1-970e-b6b2d419116e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trello-clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trello-clone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +137,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZI1Opuw1bpM3Jby09oj6HnC2IR" />
@@ -172,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584511764727</updated>
-      <workItem from="1584511766672" duration="10935000" />
+      <workItem from="1584511766672" duration="12643000" />
     </task>
     <servers />
   </component>
@@ -180,13 +190,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1584524244094">
+    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1584530812662">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584524244094" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584524513665">
+    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584530812662" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584528043403">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584524513665" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584528043403" />
   </component>
 </project>
