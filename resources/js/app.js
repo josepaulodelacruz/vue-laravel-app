@@ -30,4 +30,4 @@ const App = require('./components/App').default;
 const app = new Vue({
     components: {App},
     template: "<App/>",
-}).$mount('#app')
+}).$mount('#app');
