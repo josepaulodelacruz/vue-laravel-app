@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64eee3cc-0f00-4de1-970e-b6b2d419116e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,9 +190,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584530812662" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584594168252">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584594960957">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584594168252" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1360.-169.1360.728@0.0.1600.860" timestamp="1584594960957" />
   </component>
 </project>
