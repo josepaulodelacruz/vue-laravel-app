@@ -2194,8 +2194,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     handleSubmit: function handleSubmit(e) {
-      var _this = this;
-
       e.preventDefault();
 
       if (this.password.length > 0) {
@@ -2203,12 +2201,12 @@ __webpack_require__.r(__webpack_exports__);
           email: this.email,
           password: this.password
         }).then(function (response) {
-          localStorage.setItem('user', response.data.success.name);
-          localStorage.setItem('jwt', response.data.success.token);
-
-          if (localStorage.getItem('jwt') != null) {
-            _this.$router.go('/board');
-          }
+          console.log(response.data); // localStorage.setItem('user',response.data.success.name)
+          // localStorage.setItem('jwt',response.data.success.token)
+          //
+          // if (localStorage.getItem('jwt') != null){
+          //     this.$router.go('/board')
+          // }
         })["catch"](function (error) {
           console.error(error);
         });
@@ -42334,7 +42332,7 @@ var render = function() {
                                 return _c(
                                   "div",
                                   {
-                                    key: task.category_id + "," + task.order,
+                                    key: index,
                                     staticClass: "transit-1",
                                     attrs: { id: task.id }
                                   },

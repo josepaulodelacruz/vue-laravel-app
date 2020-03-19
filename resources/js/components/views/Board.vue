@@ -11,7 +11,7 @@
                             <div class="card-body card-body-dark">
                                 <draggable :options="dragOptions" element="div" @end="changeOrder" v-model="element.tasks">
                                     <transition-group :id="element.id">
-                                        <div v-for="task,index in element.tasks" :key="task.category_id+','+task.order" class="transit-1" :id="task.id">
+                                        <div v-for="task,index in element.tasks" :key="index" class="transit-1" :id="task.id">
                                             <div class="small-card">
                                                 <textarea v-if="task === editingTask" class="text-input" @keyup.enter="endEditing(task)" @blur="endEditing(task)" v-model="task.name"></textarea>
                                                 <label for="checkbox" v-if="task !== editingTask" @dblclick="editTask(task)">{{ task.name }}</label>

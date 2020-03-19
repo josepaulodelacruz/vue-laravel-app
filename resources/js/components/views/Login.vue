@@ -56,13 +56,14 @@
                         email: this.email,
                         password: this.password
                     })
-                        .then(response => {
-                            localStorage.setItem('user',response.data.success.name)
-                            localStorage.setItem('jwt',response.data.success.token)
-
-                            if (localStorage.getItem('jwt') != null){
-                                this.$router.go('/board')
-                            }
+                        .then(response =>   {
+                            console.log(response.data)
+                            // localStorage.setItem('user',response.data.success.name)
+                            // localStorage.setItem('jwt',response.data.success.token)
+                            //
+                            // if (localStorage.getItem('jwt') != null){
+                            //     this.$router.go('/board')
+                            // }
                         })
                         .catch(function (error) {
                             console.error(error);
