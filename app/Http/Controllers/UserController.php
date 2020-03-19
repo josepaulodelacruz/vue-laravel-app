@@ -5,40 +5,35 @@ namespace App\Http\Controllers;
 use App\User;
 use Validator;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
-    public function login ()
+    public function login()
     {
-        $status = 401;
-        $response = ['error' => 'Unauthorized'];
-
-
         $credentials = [
-          'email' => request('email'),
-          'password' => request('password')
+            'email' => request('email'),
+            'password' => request('password')
         ];
 
         if (Auth::attempt($credentials)) {
             $success['token'] = Auth::user()->createToken('MyApp')->accessToken;
-
-            return response()->json(['success' => 'success']);
+            $success['name'] = Auth::user()->name;
+            return response()->json(['success' => $success]);
         }
 
-        return response()->json($response, $status);
+        return response()->json(['error' => 'Unauthorised'], 401);
     }
 
-    public function register (Request $request)
+    public function register(Request $request)
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'email' => 'required',
-            'password' => 'required|min:6',
+            'email' => 'required|email',
+            'password' => 'required',
         ]);
 
-        if($validator->fails()) {
+        if ($validator->fails()) {
             return response()->json(['error' => $validator->errors()], 401);
         }
 
@@ -52,8 +47,9 @@ class UserController extends Controller
         return response()->json(['success' => $success]);
     }
 
-    public function getDetails ()
+    public function getDetails()
     {
         return response()->json(['success' => Auth::user()]);
     }
+
 }
